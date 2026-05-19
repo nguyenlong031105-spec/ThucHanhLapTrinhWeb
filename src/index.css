@@ -1,4 +1,5 @@
 :root {
+<<<<<<< HEAD
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -108,4 +109,37 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+=======
+  --bg-color: #0f111a;
+  --panel-bg: #1a1d29;
+  --text-primary: #ffffff;
+  --text-secondary: #94a3b8;
+  --primary-accent: #00f0ff; /* Neon cyan */
+  --primary-accent-hover: #00d2ff;
+  --secondary-accent: #ff003c; /* Cyberpunk red */
+  --border-color: #2d3748;
+  --input-bg: #0f111a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Base utility classes for typography */
+.text-gradient {
+  background: linear-gradient(90deg, var(--primary-accent), #9d4edd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+>>>>>>> 598e5abfc12646260fcd58757ce9a8b0bfb46261
 }
