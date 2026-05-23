@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "fullName": "Nguyễn Văn Long",
+      "email": "nguyenlong031105@gmail.com",
+      "phone": "0328941846",
+      "username": "longnguyen031105",
+      "password": "long031105",
+      "id": "UfltAUBGOxc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
